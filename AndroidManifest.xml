@@ -252,7 +252,7 @@
                 android:configChanges="keyboardHidden|orientation|screenSize"
                 android:theme="@android:style/Theme.Holo.Dialog"/>
 
-        <activity android:name="com.android.camera.Camera"
+  <!--       <activity android:name="com.android.camera.Camera"
                 android:taskAffinity="com.android.camera"
                 android:label="@string/camera_label"
                 android:theme="@style/ThemeCamera"
@@ -268,9 +268,9 @@
                 <action android:name="android.media.action.STILL_IMAGE_CAMERA" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>
+        </activity> -->
 
-        <activity-alias android:icon="@mipmap/ic_launcher_camera"
+<!--         <activity-alias android:icon="@mipmap/ic_launcher_camera"
                         android:label="@string/camera_label"
                         android:name="com.android.camera.CameraLauncher"
                         android:targetActivity="com.android.camera.Camera" >
@@ -305,7 +305,7 @@
                 android:configChanges="orientation|screenSize|keyboardHidden"
                 android:clearTaskOnLaunch="true"
                 android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
-        </activity>
+        </activity> -->
         <receiver android:name="com.android.gallery3d.gadget.PhotoAppWidgetProvider"
                 android:label="@string/appwidget_title">
             <intent-filter>
