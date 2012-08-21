@@ -100,7 +100,7 @@ public class MoviePlayer implements
     private final Runnable mRemoveBackground = new Runnable() {
         @Override
         public void run() {
-            mRootView.setBackground(null);
+//            mRootView.setBackground(null);
         }
     };
 
@@ -204,14 +204,14 @@ public class MoviePlayer implements
     }
 
     private void showSystemUi(boolean visible) {
-        int flag = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE;
-        if (!visible) {
-            flag |= View.SYSTEM_UI_FLAG_LOW_PROFILE | View.SYSTEM_UI_FLAG_FULLSCREEN
-                    | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION;
-        }
-        mVideoView.setSystemUiVisibility(flag);
+//        int flag = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+//                | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+//                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE;
+//        if (!visible) {
+//            flag |= View.SYSTEM_UI_FLAG_LOW_PROFILE | View.SYSTEM_UI_FLAG_FULLSCREEN
+//                    | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION;
+//        }
+//        mVideoView.setSystemUiVisibility(flag);
     }
 
     public void onSaveInstanceState(Bundle outState) {

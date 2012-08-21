@@ -210,8 +210,9 @@ class PositionController {
     public PositionController(Context context, Listener listener) {
         mListener = listener;
         mPageScroller = new FlingScroller();
-        mFilmScroller = new OverScroller(context,
-                null /* default interpolator */, false /* no flywheel */);
+//        mFilmScroller = new OverScroller(context,
+//                null /* default interpolator */, false /* no flywheel */);
+        mFilmScroller = new OverScroller(context);
 
         // Initialize the areas.
         initPlatform();

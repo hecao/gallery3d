@@ -43,7 +43,7 @@ public class GalleryAppImpl extends Application implements GalleryApp {
     @Override
     public void onCreate() {
         super.onCreate();
-        com.android.camera.Util.initialize(this);
+//        com.android.camera.Util.initialize(this);
         GalleryUtils.initialize(this);
         WidgetUtils.initialize(this);
         PicasaSource.initialize(this);
