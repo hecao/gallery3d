@@ -40,6 +40,7 @@ import com.android.gallery3d.picasasource.PicasaSource;
 import com.android.gallery3d.ui.GLRoot;
 import com.android.gallery3d.util.GalleryUtils;
 
+//main activity //READ
 public final class Gallery extends AbstractGalleryActivity implements OnCancelListener {
     public static final String EXTRA_SLIDESHOW = "slideshow";
     public static final String EXTRA_DREAM = "dream";

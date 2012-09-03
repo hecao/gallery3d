@@ -38,6 +38,7 @@ import com.android.gallery3d.ui.GLRoot;
 import com.android.gallery3d.ui.GLRootView;
 import com.android.gallery3d.util.ThreadPool;
 
+//base activity READ
 public class AbstractGalleryActivity extends Activity implements GalleryActivity {
     @SuppressWarnings("unused")
     private static final String TAG = "AbstractGalleryActivity";

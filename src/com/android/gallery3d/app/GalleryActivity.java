@@ -18,6 +18,7 @@ package com.android.gallery3d.app;
 
 import com.android.gallery3d.ui.GLRoot;
 
+//activity interface READ
 public interface GalleryActivity extends GalleryContext {
     public StateManager getStateManager();
     public GLRoot getGLRoot();

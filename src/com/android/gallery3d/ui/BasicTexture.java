@@ -20,6 +20,7 @@ import com.android.gallery3d.common.Utils;
 
 import java.util.WeakHashMap;
 
+//Texture 
 // BasicTexture is a Texture corresponds to a real GL texture.
 // The state of a BasicTexture indicates whether its data is loaded to GL memory.
 // If a BasicTexture is loaded into GL memory, it has a GL texture id.

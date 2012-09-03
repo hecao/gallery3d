@@ -171,6 +171,7 @@ public class PhotoPage extends ActivityState implements
 
     @Override
     public void onCreate(Bundle data, Bundle restoreState) {
+    	Log.v("hecao", "========photo page on create=");
         mActionBar = mActivity.getGalleryActionBar();
         mSelectionManager = new SelectionManager(mActivity, false);
         mMenuExecutor = new MenuExecutor(mActivity, mSelectionManager);

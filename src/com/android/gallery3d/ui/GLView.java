@@ -25,6 +25,8 @@ import com.android.gallery3d.common.Utils;
 
 import java.util.ArrayList;
 
+//Important 
+//View tree
 // GLView is a UI component. It can render to a GLCanvas and accept touch
 // events. A GLView may have zero or more child GLView and they form a tree
 // structure. The rendering and event handling will pass through the tree

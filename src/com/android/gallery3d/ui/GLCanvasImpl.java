@@ -33,6 +33,7 @@ import javax.microedition.khronos.opengles.GL11;
 import javax.microedition.khronos.opengles.GL11Ext;
 import javax.microedition.khronos.opengles.GL11ExtensionPack;
 
+//Canvas Implement
 public class GLCanvasImpl implements GLCanvas {
     @SuppressWarnings("unused")
     private static final String TAG = "GLCanvasImp";

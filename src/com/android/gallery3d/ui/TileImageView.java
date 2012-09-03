@@ -34,6 +34,7 @@ import com.android.gallery3d.util.ThreadPool.JobContext;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
+//每个图块
 public class TileImageView extends GLView {
     public static final int SIZE_UNKNOWN = -1;
 

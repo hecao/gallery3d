@@ -20,6 +20,7 @@ import android.graphics.RectF;
 
 import javax.microedition.khronos.opengles.GL11;
 
+//Map GL to canvas ?
 //
 // GLCanvas gives a convenient interface to draw using OpenGL.
 //

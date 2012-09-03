@@ -20,6 +20,7 @@ import android.view.animation.Interpolator;
 
 import com.android.gallery3d.common.Utils;
 
+//Animation READ
 // Animation calculates a value according to the current input time.
 //
 // 1. First we need to use setDuration(int) to set the duration of the

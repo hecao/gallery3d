@@ -29,6 +29,7 @@ import com.android.gallery3d.util.ThreadPool;
 
 import java.io.File;
 
+//Application, init Utils READ
 public class GalleryAppImpl extends Application implements GalleryApp {
 
     private static final String DOWNLOAD_FOLDER = "download";

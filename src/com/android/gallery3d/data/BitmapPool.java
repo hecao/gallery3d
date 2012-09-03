@@ -27,6 +27,7 @@ import com.android.gallery3d.util.ThreadPool.JobContext;
 import java.io.FileDescriptor;
 import java.util.ArrayList;
 
+//Bitmap池，保存同样大小的bitmap会优化？
 public class BitmapPool {
     private static final String TAG = "BitmapPool";
 

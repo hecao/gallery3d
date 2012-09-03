@@ -21,6 +21,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+//线程池 为啥要用resource counter 没明白
 public class ThreadPool {
     private static final String TAG = "ThreadPool";
     private static final int CORE_POOL_SIZE = 4;

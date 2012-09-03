@@ -23,6 +23,7 @@ import android.os.Looper;
 import com.android.gallery3d.data.DataManager;
 import com.android.gallery3d.util.ThreadPool;
 
+//Context interface READ
 public interface GalleryContext {
     public DataManager getDataManager();
 

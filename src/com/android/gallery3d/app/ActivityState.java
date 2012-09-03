@@ -33,6 +33,7 @@ import android.view.WindowManager;
 
 import com.android.gallery3d.ui.GLView;
 
+//similar to Activity? READ
 abstract public class ActivityState {
     protected static final int FLAG_HIDE_ACTION_BAR = 1;
     protected static final int FLAG_HIDE_STATUS_BAR = 2;

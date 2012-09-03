@@ -28,6 +28,8 @@ import com.android.gallery3d.common.Utils;
 
 import java.util.Stack;
 
+//state manager .. ActivityState Stack Manager READ
+//manager activitystate similar to Activtiy
 public class StateManager {
     @SuppressWarnings("unused")
     private static final String TAG = "StateManager";
